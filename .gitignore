@@ -1,0 +1,6 @@
+bin/
+.metadata/
+*.class
+*.log
+.settings/
+.DS_Store
