@@ -1,0 +1,25 @@
+package com.pjw.day0605_2;
+
+public class Student {
+
+//	이름, 점수
+	private String name;
+	private int score;
+	
+//	생성자
+	public Student(String name, int score) {
+		this.name=name;
+		this.score=score;
+	}
+
+
+	//Gatter 
+	
+	public String getName() {
+		return name;
+	}
+
+	public int getScore() {
+		return score;
+	}
+}
